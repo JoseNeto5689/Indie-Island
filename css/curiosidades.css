@@ -1,0 +1,112 @@
+.section-h1 {
+    background-color: orangered;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.section-one {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section-two {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section-three {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section-four {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.section-base-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 40px;
+    font-size: 20px;
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+#item {
+    background-color: gray;
+    width: 38%;
+    height: auto;
+    border-radius: 30px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#section-three-div {
+    background-color: gray;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+#section-four {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-four-div {
+    background-color: gray;
+    justify-content: center;
+    border-radius: 25px;
+}

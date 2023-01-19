@@ -1,0 +1,201 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 1950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogosdestaques{
+    margin: 0 auto;
+    width: 1200px;
+    height: 535px;
+    overflow: hidden;
+}
+
+.jogodestaque {
+    width:400%;
+    height: 535px;
+    display: flex;
+
+}
+
+.jogodestaque input{
+    display: none;
+}
+
+.jogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jogo img{
+    width: 1200px;
+    height: 535px;
+    border-radius: 30px;
+    
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1200px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual-btn:hover{
+    background-color: #2389E8;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 1200px;
+    margin-top: 495px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #2389E8;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #2389E8;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #2389E8;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #2389E8;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #2389E8;
+}
+
+
+.jogos-relevantes{
+    position: relative;
+    width: 100%;
+    height: 454px;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.jogo-relevante{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+
+.jogo-relevante-wrapper{
+    overflow-y: scroll;
+} 
+
+.jogo-relevante-wrapper::-webkit-scrollbar{
+    height: 3px;
+    background-color: #ddd;
+
+}
+
+.jogo-relevante-wrapper::-webkit-scrollbar-thumb{
+    background-color: #2389E8;
+    border-radius: 3px;
+    
+}
+
+
+
+
+.arrow-left,.arrow-right{
+    position: absolute;
+    margin: -40px auto;
+    border: 2px solid white;
+    border-radius: 50px;
+    right: auto;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background:linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.5;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right{
+    position: absolute;
+    left: auto;
+    right: 0;
+    background:linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.arrow-left:hover, .arrow-right:hover{
+    opacity: 1;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item{
+    opacity: 1;
+}

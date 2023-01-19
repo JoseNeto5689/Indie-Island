@@ -1,0 +1,288 @@
+body {
+    height: auto;
+}
+main {
+    width: 65vw;
+    margin: 12vh auto 0 auto;
+}
+
+h1,
+h2,
+h3,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#title-container {
+    display: flex;
+    width: 100%;
+}
+
+#title {
+    width: 50%;
+    justify-self: flex-start;
+}
+
+a#back-page {
+    width: 50%;
+    justify-self: flex-end;
+    text-align: right;
+}
+
+div#game-description div#description{
+    display: flex;
+}
+
+div#game-description div#description img#game-image {
+    width: 65%;
+    padding: 10px;
+}
+
+div#game-description div#description p#game-description{
+    font-size: 1.5vw;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+div#game-description div#description button,
+#call-text-mobile button{
+    border-radius: 50px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding: 2vh 3vw;
+    background-color: #E8550C;
+    box-shadow: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#game-description div#description div#call-text,
+#call-text-mobile{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#call-text-mobile {
+    display: none;
+}
+
+#centralize {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#tags{
+    display: flex;
+}
+
+.tag{
+    padding: 0.3vw 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-gallery {
+    width: 25vw;
+    height: 25vh;
+    margin: 10px 10px 10px 0;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+div#gallery {
+    display: flex;
+    overflow-x: auto;
+    width: calc(97vw);
+    position: absolute;
+    left: 10px;
+    cursor: grab;
+}
+
+div#gallery::-webkit-scrollbar{
+    height: 3px;
+    background-color: #ddd;
+
+}
+
+div#gallery::-webkit-scrollbar-thumb{
+    background-color: #2389E8;
+    border-radius: 3px;
+}
+
+h2#gallery-title {
+    margin-top: 2vh;
+}
+
+h2#trailer {
+    margin-top: 35vh;
+}
+
+#stores {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#steam {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 7vw;
+    background-color: #002a50;
+}
+
+#epic-games {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 7vw;
+    background-color: gray;
+}
+
+#epic-games img{
+    margin-top: 0.5vw;
+}
+
+#xbox {
+    width: 7vw;
+    height:7vw;
+    border-radius: 7vw;
+    background-color: green;
+}
+
+#stores div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#stores div span{
+    margin-top: 5px;
+}
+
+@media (max-width: 1200px){
+    main {
+        width: 100vw;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    h2 {
+        text-indent: 3vw;
+    }
+
+    #title {
+        font-size: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #game-apresentation{
+        display: flex;
+        flex-direction: column;
+    }
+    #title-container{
+        order: 2;
+    }
+
+    #tags{
+        order: 3;
+        margin-top: 2vw;
+    }
+
+    .tag {
+        font-size: 3vw;
+        padding: 1vw 3vw;
+        text-align: center;
+    }
+    
+    div#gallery {
+        display: flex;
+        overflow-x: scroll;
+        position: relative;
+    }
+    div#game-description div#description div#call-text {
+        display: none;
+    }
+
+    #call-text-mobile {
+        display: flex;
+        order: 4;
+    }
+
+    #call-text-mobile p#game-description {
+        font-size: 3vw;
+        margin: 3vw;
+        text-align: left;
+    }
+    #call-text-mobile button {
+        width: 40vw;
+        font-size: 3vw;
+    }
+
+    div#game-description div#description img#game-image {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2vw;
+
+    }
+
+    a#back-page {
+        display: none;
+    }
+
+    h2#trailer {
+        margin-top: 3vw;
+    }
+
+    .game-gallery {
+        width: 32vw;
+        height: 18vw;
+    }
+
+    #video {
+        width: 95vw;
+        margin: 1vw auto 0 auto;
+    }
+
+    #steam,#epic-games,#xbox {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 20vw;
+    }
+    #stores {
+        height: 50vw;
+    }
+
+    #stores span {
+        font-size: 3vw;
+    }
+
+}
+
+
+
