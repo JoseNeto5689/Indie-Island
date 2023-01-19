@@ -138,17 +138,6 @@ body{
     width: 100vw;
 }
 
-.jogo-relevante-wrapper::-webkit-scrollbar{
-    height: 3px;
-    background-color: #ddd;
-
-}
-
-.jogo-relevante-wrapper::-webkit-scrollbar-thumb{
-    background-color: #2389E8;
-    border-radius: 3px;
-}
-
 .jogo-relevante{
     display: flex;
     flex-flow: row nowrap;
