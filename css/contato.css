@@ -1,0 +1,38 @@
+#contato {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+}
+
+#title {
+    display: flex;
+}
+
+#button {
+    padding: 20px;
+    width: 300px;
+    background-color: darkorange;
+    height: auto;
+    border-radius: 30px;
+    color: white;
+}
+
+#text-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    text-align: justify;
+    border-radius: 30px;
+    padding: 40px;
+    font-size: 20px;
+
+}

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
     <title>Contato - Indie Island</title>
 </head>
 
@@ -14,26 +15,61 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/index.html">Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="curiosidades.html">Curiosidades</a>
+                    <a href="html/curiosidades.html">Curiosidades</a>
                 </li>
                 <li>
-                    <a href="criadores.html">Criadores</a>
+                    <a href="html/criadores.html">Criadores</a>
                 </li>
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a href="html/contato.html">Contato</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <div id="menu">
+        <div id="hamburguer">
+            <div> </div>
+            <div> </div>
+            <div> </div>
+        </div>
+    </div>
+    <div id="expanded-menu">
+        <div id="modal">
+            <div id="menu-options">
+                <a href="../index.html">
+                    <h3>Home</h3>
+                </a>
+                <a href="html/curiosidades.html">
+                    <h3>Curiosidades</h3>
+                </a>
+                <a href="html/criadores.html">
+                    <h3>Criadores</h3>
+                </a>
+                <a href="html/contato.html">
+                    <h3>Contato</h3>
+                </a>
+                <a>
+                    <h3 id="backToPage">⬅ Voltar</h3>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
 
     <section id="contato">
-        <h1>Nos envie seu feedback:</h1>
-        <input type="text">
+        <strong>
+            <h1 id="title">Nos envie seu feedback:</h1>
+        </strong>
+        <textarea name="" id="text-area" cols="" rows=""></textarea>
+        <form action="">
+            <br>
+            <br>
+            <input id="button" type="submit" value="Enviar">
+        </form>
     </section>
 
 </body>
