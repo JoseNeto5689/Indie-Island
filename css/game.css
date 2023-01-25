@@ -14,6 +14,10 @@ li {
     padding: 0;
 }
 
+h2#trailer {
+    margin-bottom: 5px;
+}
+
 #title-container {
     display: flex;
     width: 100%;
@@ -104,13 +108,6 @@ div#game-description div#description div#call-text,
     margin: 10px 10px 10px 0;
 }
 
-img {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-  }
 
 div#gallery {
     display: flex;
@@ -148,6 +145,11 @@ h2#trailer {
     justify-content: space-around;
 }
 
+#video {
+    width:65vw;
+    height: 36.56vw;
+}
+
 #steam {
     width: 7vw;
     height: 7vw;
@@ -180,7 +182,7 @@ h2#trailer {
     flex-direction: column;
 }
 
-#stores div span{
+#stores div p{
     margin-top: 5px;
 }
 
