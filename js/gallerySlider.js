@@ -1,24 +1,28 @@
-const slider = document.querySelector("div.scroll-horizontal")
+const sliders = document.querySelectorAll("div.scroll-horizontal");
 
-let isDown = false;
-let startX;
-let scrollLeft;
+sliders.forEach(slider => {
+    let state = {
+        isDown: false,
+        startX: null,
+        scrollLeft: null
+    };
 
-slider.addEventListener('mousedown', (e) => {
-  isDown = true;
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-slider.addEventListener('mouseleave', () => {
-  isDown = false;
-});
-slider.addEventListener('mouseup', () => {
-  isDown = false;
-});
-slider.addEventListener('mousemove', (e) => {
-  if(!isDown) return;
-  e.preventDefault()
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 2; //scroll-fast
-  slider.scrollLeft = scrollLeft - walk;
+    slider.addEventListener('mousedown', (e) => {
+        state.isDown = true;
+        state.startX = e.pageX - slider.offsetLeft;
+        state.scrollLeft = slider.scrollLeft;
+    });
+    slider.addEventListener('mouseleave', () => {
+        state.isDown = false;
+    });
+    slider.addEventListener('mouseup', () => {
+        state.isDown = false;
+    });
+    slider.addEventListener('mousemove', (e) => {
+        if (!state.isDown) return;
+        e.preventDefault()
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - state.startX) * 2; //scroll-fast
+        slider.scrollLeft = state.scrollLeft - walk;
+    });
 });
