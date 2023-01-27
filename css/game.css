@@ -140,35 +140,35 @@ h2#trailer {
 #stores {
     display: flex;
     flex-direction: row;
-    height: 40vh;
+    height: 50vh;
     align-items: center;
     justify-content: space-around;
 }
 
-#video {
+#video{
     width:65vw;
     height: 36.56vw;
 }
 
-#steam {
+#steam > div{
     width: 7vw;
     height: 7vw;
     border-radius: 7vw;
     background-color: #002a50;
 }
 
-#epic-games {
+#epic-games > div{
     width: 7vw;
     height: 7vw;
     border-radius: 7vw;
     background-color: gray;
 }
 
-#epic-games img{
+#epic-games > div img{
     margin-top: 0.5vw;
 }
 
-#xbox {
+#xbox > div{
     width: 7vw;
     height:7vw;
     border-radius: 7vw;
@@ -182,8 +182,36 @@ h2#trailer {
     flex-direction: column;
 }
 
-#stores div ps{
+#stores div p{
     margin-top: 5px;
+    text-align: center;
+}
+
+#stores div p span.title {
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+#stores div p span.title-p {
+    font-size: 1vw;
+}
+
+#stores div p span.price {
+    font-size: 1.5vw;
+    font-weight: bolder;
+
+}
+
+#stores div#xbox p span.title {
+
+}
+
+#stores div#epic-games p span.title {
+
+}
+
+#stores div#steam p span.title {
+    
 }
 
 @media (max-width: 1200px){
