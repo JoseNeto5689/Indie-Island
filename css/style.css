@@ -30,7 +30,8 @@ header nav ul {
 
 a,
 a:link,
-a:active {
+a:active,
+button {
     text-decoration: none;
     color: unset;
     cursor: pointer;
@@ -106,6 +107,9 @@ div#modal {
     height: 100%;
     width: 100%;
     display: none;
+    position: fixed;
+    overflow: hidden;
+    z-index: 10;
 }
 
 div#modal h1,

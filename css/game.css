@@ -140,7 +140,7 @@ h2#trailer {
 #stores {
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    height: 30vw;
     align-items: center;
     justify-content: space-around;
 }
@@ -150,14 +150,14 @@ h2#trailer {
     height: 36.56vw;
 }
 
-#steam > div{
+#steam a > div{
     width: 7vw;
     height: 7vw;
     border-radius: 7vw;
     background-color: #002a50;
 }
 
-#epic-games > div{
+#epic-games a > div{
     width: 7vw;
     height: 7vw;
     border-radius: 7vw;
@@ -168,7 +168,7 @@ h2#trailer {
     margin-top: 0.5vw;
 }
 
-#xbox > div{
+#xbox a > div{
     width: 7vw;
     height:7vw;
     border-radius: 7vw;
@@ -212,6 +212,10 @@ h2#trailer {
 
 #stores div#steam p span.title {
     
+}
+
+h2#store-title {
+    margin-top: 5px;
 }
 
 @media (max-width: 1200px){
