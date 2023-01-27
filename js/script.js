@@ -1,5 +1,5 @@
 const menu = document.querySelector("div#menu")
-const modal = document.querySelector("div#modal")
+const modal = document.querySelector("div.modal")
 const backLink = document.querySelector("a h3#backToPage") 
 const stores = document.querySelector("#stores")
 const body = document.querySelector("body")
