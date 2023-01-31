@@ -178,7 +178,7 @@ h2#trailer {
     background-color: gray;
 }
 
-#epic-games > div img{
+#epic-games div img{
     margin-top: 0.5vw;
 }
 
@@ -216,20 +216,8 @@ h2#trailer {
 
 }
 
-#stores div#xbox p span.title {
-
-}
-
-#stores div#epic-games p span.title {
-
-}
-
-#stores div#steam p span.title {
-    
-}
-
 h2#store-title {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 @media (max-width: 1200px){
@@ -328,6 +316,41 @@ h2#store-title {
 
     #stores span {
         font-size: 3vw;
+    }
+    #steam a > div{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 25vw;
+        background-color: #002a50;
+    }
+    
+    #epic-games a > div{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 25vw;
+        background-color: gray;
+    }
+    
+    #xbox a > div{
+        width: 20vw;
+        height:20vw;
+        border-radius: 25vw;
+        background-color: green;
+    }
+
+    #stores div p span.title {
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+    
+    #stores div p span.title-p {
+        font-size: 2.5vw;
+    }
+    
+    #stores div p span.price {
+        font-size: 3vw;
+        font-weight: bolder;
+    
     }
 
 }
