@@ -18,6 +18,20 @@ h2#trailer {
     margin-bottom: 5px;
 }
 
+.modal-image {
+    display: flex; 
+    position: fixed; 
+    top: 0px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.modal-image #closeImage {
+    position: fixed; 
+    top: 2vw; 
+    right: 2vw;
+}
+
 #title-container {
     display: flex;
     width: 100%;
