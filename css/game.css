@@ -1,5 +1,6 @@
 body {
     height: auto;
+    overflow-x: hidden;
 }
 main {
     width: 65vw;
@@ -124,9 +125,10 @@ div#game-description div#description div#call-text,
 
 
 div#gallery {
+    box-sizing: border-box;
     display: flex;
     overflow-x: auto;
-    width: calc(97vw);
+    width: calc(100vw - 25px);
     position: absolute;
     left: 10px;
     cursor: grab;
@@ -218,6 +220,27 @@ h2#trailer {
 
 h2#store-title {
     margin-top: 10px;
+}
+
+a button.store-button {
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+div#xbox a button.store-button{
+    background-color: darkgreen;
+}
+
+div#steam a button.store-button{
+    background-color: #002a50;
+}
+
+div#epic-games a button.store-button{
+    background-color: gray;
 }
 
 @media (max-width: 1200px){
@@ -351,6 +374,9 @@ h2#store-title {
         font-size: 3vw;
         font-weight: bolder;
     
+    }
+    a button.store-button {
+        font-size: 2vw;
     }
 
 }
