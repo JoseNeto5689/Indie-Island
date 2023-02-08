@@ -15,7 +15,7 @@ li {
     padding: 0;
 }
 
-h2#trailer {
+h2 {
     margin-bottom: 5px;
 }
 
@@ -120,7 +120,7 @@ div#game-description div#description div#call-text,
 .game-gallery {
     width: 25vw;
     height: 25vh;
-    margin: 10px 10px 10px 0;
+    margin: 0 10px 10px 0;
 }
 
 
@@ -315,7 +315,7 @@ div#epic-games a button.store-button{
     }
 
     h2#trailer {
-        margin-top: 3vw;
+        margin-top: 1vw;
     }
 
     .game-gallery {
@@ -324,7 +324,6 @@ div#epic-games a button.store-button{
     }
 
     #video {
-        width: 95vw;
         margin: 1vw auto 0 auto;
     }
 

@@ -5,14 +5,13 @@ body{
     height: 1950px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .jogosdestaques{
     margin: 0 auto;
     width: 1200px;
-    height: 535px;
+    height: 560px;
     overflow: hidden;
 }
 
@@ -20,6 +19,7 @@ body{
     width:400%;
     height: 535px;
     display: flex;
+    margin-top: 25px;
 
 }
 
