@@ -110,3 +110,9 @@
     justify-content: center;
     border-radius: 25px;
 }
+
+@media(min-width: 800px) {
+    .container p {
+        width: 400vw;
+    }
+}
