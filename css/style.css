@@ -49,6 +49,11 @@ header nav ul li {
     justify-content: center;
 }
 
+header nav ul li:hover {
+    background-color: #1677d2;
+    transition: 0.2s;
+}
+
 header nav ul li:first-child {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
