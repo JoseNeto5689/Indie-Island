@@ -58,7 +58,7 @@
     align-items: center;
     width: 70%;
     height: auto;
-    text-align: justify;
+    text-align: left;
     background-color: gray;
     border-radius: 30px;
     padding: 40px;
@@ -79,7 +79,7 @@
     width: 38%;
     height: auto;
     border-radius: 30px;
-    text-align: justify;
+    text-align: left;
     padding: 40px;
     font-size: 20px;
     align-items: center;
