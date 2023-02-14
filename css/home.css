@@ -209,4 +209,19 @@ h3{
     body{
           padding-bottom: 0;
     }
+    .current-item{
+        width: 41vw;
+        height: 27vw;
+        opacity: 1;
+    }
+    #titulo-jogo-novo {
+        text-align: left;
+        width: 100%;
+        text-indent: 2vw;
+        font-size: 5vw;
+    }
+    #titulo-jogo-relevante{
+        font-size: 5vw;
+        text-indent: 2vw;
+    }
 }
